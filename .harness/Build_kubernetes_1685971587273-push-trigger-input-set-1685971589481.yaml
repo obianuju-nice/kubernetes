@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kubernetes_1685971587273-push-trigger-input-set
+  identifier: Build_kubernetes_1685971587273pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: niceharnessproject
+  pipeline:
+    identifier: Build_kubernetes_1685971587273
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
